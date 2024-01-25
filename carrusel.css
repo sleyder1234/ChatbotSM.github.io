@@ -5,6 +5,17 @@
     max-height: 100%;
     float: right;
     right: 10px;
+    margin-left: 750px;
+}
+
+.mySlides2 {
+    display: none;
+    position: relative; 
+    max-width: 25%;
+    max-height: 100%;
+    float: right;
+    right: 10px;
+    margin-left: 750px;
 }
 
 .mySlides img {
