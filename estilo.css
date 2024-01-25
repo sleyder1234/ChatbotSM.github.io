@@ -4,7 +4,7 @@ body {
     -moz-background-size: cover; 
     -webkit-background-size: cover; 
     -o-background-size: cover; 
-    background-color: #C2C9C5;
+    background-color: rgba(248, 252, 252, 0.884);
 }
 
 h1 {
