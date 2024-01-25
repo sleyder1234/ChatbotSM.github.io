@@ -1,19 +1,11 @@
 .carousel {
-    display: none;
-    position: relative; 
-    max-width: 25%;
-    max-height: 100%;
-    float: right;
-    right: 10px;
-    margin-top: 220px;
-    
+    margin-left: auto;
+    margin-right: 0;
 }
-.carouselimg {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    width: 480px;
-    height: 240px;
+}
+.carousel img {
+    margin-left: auto;
+    margin-right: 0;
 }
 .mySlides2 {
     display: none;
