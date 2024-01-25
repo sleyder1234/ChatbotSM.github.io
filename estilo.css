@@ -1,0 +1,220 @@
+body {
+    background: url('chatbotbackgroundimg.jpg') no-repeat center center fixed; 
+    background-size: contain; 
+    -moz-background-size: contain; 
+    -webkit-background-size: contain; 
+    -o-background-size: contain; 
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    padding: 10px;
+    border: 2px solid #081d33;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #2799aa; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 300px;
+    display: block; 
+    margin: auto; 
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    padding: 10px;
+    border: 2px solid #081d33;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 200px;
+    margin-top: 0; /* Ajustado */
+}
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.4;
+    padding: 10px;
+    border: 2px solid #081d33;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 200px;
+    margin-top: 80px; /* Ajustado */
+    margin-left: 100px;
+}
+h2.p {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    line-height: 1.4;
+    padding: 10px;
+    border: 2px solid #081d33;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 200px;
+    margin-top: 80px; /* Ajustado */
+}
+h3 {     
+        font-family: Arial, sans-serif;
+        font-size: large;
+        line-height: 1.5;
+        padding: 10px;
+        border: 2px solid #081d33;  /* Azul */
+        border-radius: 4px;
+        text-align: center;
+        color: #046372; /* Azul */
+        background-color: #f0f0f0dc;
+        width: 300px;
+        margin-top: -150px; /* Ajustado */
+        display: block; 
+        margin-left: 955px; 
+    }
+h3.p {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 200px;
+    margin-top: -350px; /* Ajustado */
+    display: block; 
+}
+h4 {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 440px;
+    margin-top: -425px; /* Ajustado */
+    display: block; 
+    margin-left: 420px;
+    text-align: center;
+    display: block;
+    
+}
+h5 {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 440px;
+    display: block; 
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    display: block; 
+}
+h6
+{
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    margin-top: -170px;
+    width: 440px;
+    display: block; 
+    margin-left: 780px;
+    text-align: center;
+    display: block;
+    
+}
+h7{
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    margin-top: -130px;
+    width: 440px;
+    display: block; 
+    text-align: center;
+    display: block;   
+    margin-left: 100px; 
+}
+h8{
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    margin-top: 300px;
+    width: 1000px;
+    display: block; 
+    text-align: center;
+    display: block;   
+    margin-left: 150px; 
+    margin-top: 400px;
+}
+p1{
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    margin-top: 200px;
+    width: 440px;
+    display: block; 
+    text-align: center;
+    display: block;   
+    margin-left: 100px; 
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Azul */
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: white; 
+    color: #007BFF; /* Azul */
+    border: 2px solid #007BFF;
+}
