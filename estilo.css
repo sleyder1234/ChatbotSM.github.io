@@ -1,9 +1,9 @@
 body {
     background: url('chatbotbackgroundimg.jpg') no-repeat center center fixed; 
-    background-size: contain; 
-    -moz-background-size: contain; 
-    -webkit-background-size: contain; 
-    -o-background-size: contain; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    -o-background-size: cover; 
     background-color: rgba(0, 255, 255, 0.5);
 }
 
