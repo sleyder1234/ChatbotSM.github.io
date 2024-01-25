@@ -24,7 +24,7 @@
 }
 
 /* For mobile devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .mySlides {
         margin-top: 50px;  // Adjust as needed
     }
