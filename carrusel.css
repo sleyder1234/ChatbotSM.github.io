@@ -5,16 +5,6 @@
     max-height: 100%;
     float: right;
     right: 10px;
-    margin-top: 200px; 
-}
-
-.mySlides {
-    display: none;
-    position: relative; 
-    max-width: 25%;
-    max-height: 100%;
-    float: right;
-    right: 10px;
 }
 
 .mySlides img {
@@ -23,27 +13,6 @@
     max-height: 100%;
 }
 
-/* For mobile devices */
-@media only screen and (max-width: 480px) {
-    .mySlides {
-        margin-top: 50px;  // Adjust as needed
-    }
-}
-
-/* For tablets */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    .mySlides {
-        margin-top: 100px;  // Adjust as needed
-    }
-}
-
-/* For desktops and laptops */
-@media only screen and (min-width: 1025px) {
-    .mySlides {
-        margin-top: 200px;  // Adjust as needed
-    }
-}
-}
 .mySlides2 img {
     max-width: 100%;
     max-height: 100%;
@@ -51,6 +20,38 @@
     height: 240px;
 }
 
+/* For mobile devices */
+@media only screen and (max-width: 480px) {
+    .mySlides {
+        right: 10px;  // Ajusta según sea necesario
+        margin-top: 200px;  // Ajusta según sea necesario
+    }
+    .mySlides2 img {
+        width: auto;  // Ajusta según sea necesario
+        height: auto;  // Ajusta según sea necesario
+    }
+}
 
+/* For tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .mySlides {
+        right: 10px;  // Ajusta según sea necesario
+        margin-top: 200px;  // Ajusta según sea necesario
+    }
+    .mySlides2 img {
+        width: auto;  // Ajusta según sea necesario
+        height: auto;  // Ajusta según sea necesario
+    }
+}
 
-
+/* For desktops and laptops */
+@media only screen and (min-width: 1025px) {
+    .mySlides {
+        right: 10px;  // Ajusta según sea necesario
+        margin-top: 200px;  // Ajusta según sea necesario
+    }
+    .mySlides2 img {
+        width: 480px;  // Ajusta según sea necesario
+        height: 240px;  // Ajusta según sea necesario
+    }
+}
