@@ -8,26 +8,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChatBots-IA</title>
 </head>
-<div id="carousel" class="carousel">
-        <img src="carrusel1.jpg" alt="Image 1">
-        <img src="carrusel12.jpg" alt="Image 2">
-        <img src="carrusel13.jpg" alt="Image 3">
+<body>
+    <div class="mySlides">
+        <img src="carrusel1.jpg" style="width:100%">
     </div>
 
+    <div class="mySlides">
+        <img src="carrusel12.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <img src="carrusel13.jpg" style="width:100%">
+    </div>
     <script>
-        var carousel = document.getElementById('carousel');
-        var images = Array.from(carousel.children);
-        var index = 0;
-
-        function rotateCarousel() {
-            images[index].style.order = images.length;
-            index = (index + 1) % images.length;
-            images.forEach(function(image, i) {
-                image.style.order = (parseInt(image.style.order) || 0) - 1;
-            });
+        var slideIndex1 = 0;
+        showSlides1();
+    
+        function showSlides1() {
+            var i;
+            var slides1 = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides1.length; i++) {
+                slides1[i].style.display = "none";  
+            }
+            slideIndex1++;
+            if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+            slides1[slideIndex1-1].style.display = "block";  
+            setTimeout(showSlides1, 5000); // Cambia la imagen cada 5 segundos
         }
-
-        setInterval(rotateCarousel, 3000);  // Rotate every 3 seconds
+    
+        window.addEventListener('resize', function() {
+            var anchoVentana = window.innerWidth;
+    
+            if (anchoVentana < 600) {
+                // Código para ajustar el diseño para pantallas pequeñas
+            } else if (anchoVentana < 900) {
+                // Código para ajustar el diseño para pantallas medianas
+            } else {
+                // Código para ajustar el diseño para pantallas grandes
+            }
+        });
     </script>
 <h1>Bievenid@ al Mundo de los ChatBots</h1>
 <h2>Qué es un Chat Bot?
@@ -68,7 +87,7 @@
                 slideIndex2++;
                 if (slideIndex2 > slides2.length) {slideIndex2 = 1}    
                 slides2[slideIndex2-1].style.display = "block";  
-                setTimeout(showSlides2, 7000); // Cambia la imagen cada 5 segundos
+                setTimeout(showSlides2, 5000); // Cambia la imagen cada 5 segundos
             }
         </script>
 <h8>Está Página utiliza fuentes confiables de terceros puede consultarlos:
@@ -80,3 +99,4 @@
 <footer>Página Realizada Por Sleyder Márquez 29.888.096, Derechos Reservados Solo para aprendizaje Enero 2024</footer>
 </body>
 </html>
+
