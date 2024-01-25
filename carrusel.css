@@ -16,7 +16,7 @@
     height: 240px;
 }
 .mySlides2 {
-    display: left;
+    display: none;
     position: relative; 
     max-height: 100%;
     right: 10px;
@@ -27,7 +27,10 @@
 .mySlides2 img {
     max-width: 100%;
     max-height: 100%;
+    width: 480px;
+    height: 240px;
 }
+
 
 
 
