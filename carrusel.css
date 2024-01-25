@@ -35,6 +35,7 @@
 @media only screen and (max-width: 480px) {
     .mySlides {
         right: 10px;  // Ajusta según sea necesario
+        margin-left: 750px;
         margin-top: 200px;  // Ajusta según sea necesario
     }
     .mySlides2 img {
