@@ -1,12 +1,12 @@
 .mySlides {
     position: relative; 
     float: right;
-    right: 50px;
+    right: 0px;
     margin-top: -50px;
     width: 480px;
     height: 240px;
     display: block; 
-    margin-left: 955px; 
+    margin-left: 1000px; 
 }
 .mySlides img {
     display: block;
