@@ -1,6 +1,8 @@
 .mySlides {
     display: block;
     margin-left: auto;
+    max-width:25%;
+    max-height:25%;
 }
 .mySlides img {
     display: block;
