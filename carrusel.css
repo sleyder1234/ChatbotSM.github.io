@@ -11,6 +11,7 @@
 }
 .mySlides2 {
     float: right;
+    margin-button:200px;
 }
 .mySlides2 img {
     display: block;
