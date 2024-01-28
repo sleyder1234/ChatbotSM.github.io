@@ -1,7 +1,6 @@
 .mySlides {
     position: relative; 
-    float: right;
-    right: 0px;
+    right: 50px;
     margin-top: -50px;
     width: 480px;
     height: 240px;
