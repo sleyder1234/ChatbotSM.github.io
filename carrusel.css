@@ -1,12 +1,10 @@
 .mySlides {
     display: none;
-    position: relative; 
+    position: absolute; 
     max-width: 25%;
     max-height: 100%;
-    float: right;
     right: 10px;
-    margin-top: 220px;
-    
+    bottom: 0px;
 }
 .mySlides img {
     display: block;
@@ -17,12 +15,10 @@
 }
 .mySlides2 {
     display: none;
-    position: relative; 
+    position: absolute; 
     max-height: 100%;
     right: 10px;
-    margin-top: -600px;
-    margin-left: 700px;
-    
+    bottom: 0px;
 }
 .mySlides2 img {
     max-width: 100%;
@@ -30,3 +26,4 @@
     width: 480px;
     height: 240px;
 }
+
