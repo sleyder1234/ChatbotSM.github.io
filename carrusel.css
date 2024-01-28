@@ -10,14 +10,13 @@
     height: 240px;
 }
 .mySlides2 {
-    margin-top: -300px;
+    margin-top: 300px;
     width: 440px;
     margin-left: 900px;
-    float:right;
 }
 .mySlides2 img {
     display: block;
     margin-left: auto;
-    margin-top: -200px;
+    margin-top: 200px;
 }
 
