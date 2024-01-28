@@ -19,5 +19,6 @@
 .mySlides2 img {
     display: block;
     margin-left: auto;
+    margin-top: -130px;
 }
 
