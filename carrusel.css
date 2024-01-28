@@ -1,29 +1,2 @@
-/* Estilo para los slides */
-.mySlides {
-    display: none;
-    width: 100%;
-    height: auto;
-    position: absolute;
-    right: 0;
-}
 
-/* Estilo responsivo para los slides */
-@media screen and (max-width: 600px) {
-    .mySlides {
-        width: 50%;
-    }
-}
-@media screen and (max-width: 900px) {
-    .mySlides {
-        width: 70%;
-    }
-}
-
-.mySlides2 {
-    float: right;
-    margin-button:300px;
-}
-.mySlides2 img {
-    margin-left: auto;
-}
 
