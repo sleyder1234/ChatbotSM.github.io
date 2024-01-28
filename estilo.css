@@ -1,115 +1,220 @@
-/* Estilos para elementos relacionados con la IA y Chatbots */
-
-/* Estilos generales para el cuerpo de la página */
 body {
+    background: url('chatbotbackgroundimg.jpg') no-repeat center center fixed; 
+    background-size: contain; 
+    -moz-background-size: contain; 
+    -webkit-background-size: contain; 
+    -o-background-size: contain; 
+    background-color: rgba(248, 252, 252, 0.884);
+}
+
+h1 {
     font-family: Arial, sans-serif;
-    background-color: #f8fcfc; /* Color de fondo suave */
-    color: #333; /* Color de texto principal */
+    line-height: 1.2;
+    padding: 10px;
+    border: 2px solid #081d33;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #2799aa; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 300px;
+    display: block; 
+    margin: auto; 
 }
 
-/* Estilos para encabezados */
-h1, h2, h3, h4, h5, h6, h7, h8 {
-    color: #046372; /* Color de los encabezados */
+h2 {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    padding: 10px;
+    border: 2px solid #081d33;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 200px;
+    margin-top: 0; /* Ajustado */
+}
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.4;
+    padding: 10px;
+    border: 2px solid #081d33;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 200px;
+    margin-top: 80px; /* Ajustado */
+    margin-left: 100px;
+}
+h2.p {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    line-height: 1.4;
+    padding: 10px;
+    border: 2px solid #081d33;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 200px;
+    margin-top: 80px; /* Ajustado */
+}
+h3 {     
+        font-family: Arial, sans-serif;
+        font-size: large;
+        line-height: 1.5;
+        padding: 10px;
+        border: 2px solid #081d33;  /* Azul */
+        border-radius: 4px;
+        text-align: center;
+        color: #046372; /* Azul */
+        background-color: #f0f0f0dc;
+        width: 300px;
+        margin-top: -150px; /* Ajustado */
+        display: block; 
+        margin-left: 955px; 
+    }
+h3.p {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 200px;
+    margin-top: -350px; /* Ajustado */
+    display: block; 
+}
+h4 {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 440px;
+    margin-top: -425px; /* Ajustado */
+    display: block; 
+    margin-left: 420px;
+    text-align: center;
+    display: block;
+    
+}
+h5 {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    width: 440px;
+    display: block; 
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    display: block; 
+}
+h6
+{
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    margin-top: -170px;
+    width: 440px;
+    display: block; 
+    margin-left: 780px;
+    text-align: center;
+    display: block;
+    
+}
+h7{
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    margin-top: -130px;
+    width: 440px;
+    display: block; 
+    text-align: center;
+    display: block;   
+    margin-left: 100px; 
+}
+h8{
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    margin-top: 300px;
+    width: 1000px;
+    display: block; 
+    text-align: center;
+    display: block;   
+    margin-left: 150px; 
+    margin-top: 400px;
+}
+p1{
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    margin-top: 200px;
+    width: 440px;
+    display: block; 
+    text-align: center;
+    display: block;   
+    margin-left: 100px; 
+}
+.container {
+    width: 80%;
+    margin: auto;
 }
 
-/* Estilos para párrafos */
-p, footer {
-    color: #555; /* Color de texto más suave */
-    line-height: 1.6; /* Espaciado entre líneas */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Azul */
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    transition-duration: 0.4s;
 }
 
-/* Estilos para enlaces */
-a {
-    color: #007BFF; /* Color de los enlaces */
-    text-decoration: none; /* Eliminar subrayado de los enlaces */
-}
-
-a:hover {
-    text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
-}
-
-/* Estilos para las imágenes */
-img {
-    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
-    height: auto; /* Mantiene la proporción de aspecto de la imagen */
-    border-radius: 8px; /* Bordes redondeados para las imágenes */
-}
-
-/* Estilos para los vídeos incrustados */
-iframe {
-    border-radius: 8px; /* Bordes redondeados para los vídeos incrustados */
-}
-
-/* Estilos para el pie de página */
-footer {
-    text-align: center; /* Alineación centrada del texto */
-    padding: 20px 0; /* Espaciado interno en la parte superior e inferior */
-    background-color: #f0f0f0; /* Color de fondo del pie de página */
-    font-size: 14px; /* Tamaño de fuente más pequeño para el pie de página */
-    color: #666; /* Color de texto más suave para el pie de página */
-}
-
-/* Estilos para los contenedores de los carruseles */
-.mySlides, .mySlides2 {
-    display: none; /* Ocultar inicialmente los elementos del carrusel */
-}
-
-/* Estilos para los botones de navegación del carrusel */
-.prev, .next {
-    cursor: pointer; /* Cursor de apuntador al pasar por encima */
-    position: absolute; /* Posición absoluta para colocarlos sobre las imágenes */
-    top: 50%; /* Posición vertical centrada */
-    width: auto; /* Ancho automático para el contenido */
-    padding: 16px; /* Relleno interno */
-    margin-top: -22px; /* Ajuste de margen superior para centrar verticalmente */
-    color: white; /* Color del texto */
-    font-weight: bold; /* Fuente en negrita */
-    font-size: 20px; /* Tamaño de fuente */
-    transition: 0.6s ease; /* Efecto de transición suave */
-    border-radius: 0 3px 3px 0; /* Bordes redondeados en el lado derecho */
-}
-
-/* Estilos para el botón de navegación "anterior" */
-.prev {
-    left: 0; /* Posicionamiento a la izquierda */
-    border-radius: 3px 0 0 3px; /* Bordes redondeados en el lado izquierdo */
-}
-
-/* Estilos para el botón de navegación "siguiente" */
-.next {
-    right: 0; /* Posicionamiento a la derecha */
-    border-radius: 3px 0 0 3px; /* Bordes redondeados en el lado izquierdo */
-}
-
-/* Estilos para los puntos de navegación del carrusel */
-.dot {
-    cursor: pointer; /* Cursor de apuntador */
-    height: 15px; /* Altura de los puntos */
-    width: 15px; /* Ancho de los puntos */
-    margin: 0 2px; /* Margen entre los puntos */
-    background-color: #bbb; /* Color de fondo de los puntos */
-    border-radius: 50%; /* Forma redondeada */
-    display: inline-block; /* Visualización en línea */
-    transition: background-color 0.6s ease; /* Efecto de transición suave */
-}
-
-/* Estilos para los puntos de navegación activos */
-.active {
-    background-color: #717171; /* Color de fondo del punto activo */
-}
-
-/* Estilos para la sección de información sobre chatbots */
-.chatbot-info {
-    padding: 20px; /* Espaciado interno */
-    background-color: #f0f0f0; /* Color de fondo */
-    border-radius: 8px; /* Bordes redondeados */
-    margin-top: 20px; /* Margen superior */
-}
-
-/* Estilos para el contenedor de los enlaces de fuentes confiables */
-.sources-container {
-    padding: 20px; /* Espaciado interno */
-    background-color: #f0f0f0; /* Color de fondo */
-    border-radius: 8px; /* Bordes redondeados */
-    margin-top: 20px; /* Margen superior */
+.button:hover {
+    background-color: white; 
+    color: #007BFF; /* Azul */
+    border: 2px solid #007BFF;
 }
