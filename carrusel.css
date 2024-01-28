@@ -1,35 +1,19 @@
-/* Estilos para el primer carrusel */
-.mySlides {
-    display: none;
-    position: fixed;
-    top: 220px; /* Ajusta la posición vertical */
-    right: 10px; /* Ajusta la posición horizontal */
-    max-width: 25%; /* Ajusta el ancho máximo del carrusel */
-    max-height: 100%; /* Ajusta la altura máxima del carrusel */
-}
+/* Estilos para los carruseles */
 
-.mySlides img {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    width: 480px; /* Ajusta el ancho de las imágenes */
-    height: 240px; /* Ajusta la altura de las imágenes */
-}
-
-/* Estilos para el segundo carrusel */
+.mySlides,
 .mySlides2 {
-    display: none;
-    position: fixed;
-    top: 10px; /* Ajusta la posición vertical */
-    right: 10px; /* Ajusta la posición horizontal */
-    max-width: 25%; /* Ajusta el ancho máximo del carrusel */
-    max-height: 100%; /* Ajusta la altura máxima del carrusel */
+  display: none;
+  margin: 0 auto; /* Esto centra los elementos horizontalmente */
 }
 
+/* Ajustes de tamaño para los carruseles */
+.mySlides img,
 .mySlides2 img {
-    max-width: 100%;
-    max-height: 100%;
-    width: 480px; /* Ajusta el ancho de las imágenes */
-    height: 240px; /* Ajusta la altura de las imágenes */
+  width: 50%; /* Ajusta el ancho de las imágenes al 50% del contenedor */
+  height: auto; /* Mantén la proporción de aspecto */
+  display: block; /* Asegura que las imágenes estén alineadas correctamente */
+  margin: 0 auto; /* Centra las imágenes horizontalmente */
 }
+
+/* Agrega estilos adicionales según sea necesario */
 
