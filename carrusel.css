@@ -8,20 +8,15 @@
 
 /* Estilo para los slides */
 .mySlides {
-    display: none;
     width: 480px;
     height: 240px;
-    position: absolute;
-    right: 0;
-    top: 0;
+    position: right;
 }
 .mySlides img{
     display: none;
     width: 480px;
     height: 240px;
-    position: absolute;
-    right: 0;
-    top: 0;
+    position: right;
 }
 /* Estilo responsivo para los slides */
 @media screen and (max-width: 600px) {
