@@ -1,12 +1,12 @@
 .mySlides {
-    margin-top: 200px;
+    margin-top: -200px;
     display: block;
     margin-left: auto;
     max-width:25%;
     max-height:25%;
 }
 .mySlides img {
-    margin-top: 200px;
+    margin-top: -200px;
     display: block;
     width: 480px;
     height: 240px;
