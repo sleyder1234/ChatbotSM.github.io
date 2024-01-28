@@ -1,14 +1,24 @@
+/* Estilo para los slides */
 .mySlides {
-    margin-top: 500px;
-    margin-left: auto;
-    max-width:25%;
-    max-height:25%;
+    display: none;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
 }
-.mySlides img {
-    margin-top: 500px;
-    width: 480px;
-    height: 240px;
+
+/* Estilo responsivo para los slides */
+@media screen and (max-width: 600px) {
+    .mySlides {
+        width: 50%;
+    }
 }
+@media screen and (max-width: 900px) {
+    .mySlides {
+        width: 70%;
+    }
+}
+
 .mySlides2 {
     float: right;
     margin-button:300px;
