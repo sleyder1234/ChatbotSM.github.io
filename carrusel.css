@@ -10,11 +10,21 @@
     height: 240px;
 }
 .mySlides2 {
-    display: none;
-    position: absolute; 
-    max-height: 100%;
-    right: 10px;
-    bottom: 0px;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    line-height: 1.5;
+    padding: 10px;
+    border: 2px solid #2c3035;  /* Azul */
+    border-radius: 4px;
+    text-align: center;
+    color: #046372; /* Azul */
+    background-color: #f0f0f0dc;
+    margin-top: -130px;
+    width: 440px;
+    display: block; 
+    text-align: center;
+    display: block;   
+    margin-left: 400px; 
 }
 .mySlides2 img {
     display: block;
