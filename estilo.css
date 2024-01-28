@@ -9,16 +9,20 @@ body {
 
 h1 {
     font-family: Arial, sans-serif;
-    line-height: 1.2;
+    font-size: large;
+    line-height: 1.5;
     padding: 10px;
-    border: 2px solid #081d33;  /* Azul */
+    border: 2px solid #2c3035;  /* Azul */
     border-radius: 4px;
     text-align: center;
-    color: #2799aa; /* Azul */
+    color: #046372; /* Azul */
     background-color: #f0f0f0dc;
-    width: 200px;
+    width: 440px;
+    margin-top: -425px; /* Ajustado */
     display: block; 
-    margin-left: 420px; 
+    margin-left: 420px;
+    text-align: center;
+    display: block;
 }
 
 h2 {
